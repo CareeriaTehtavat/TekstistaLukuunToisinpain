@@ -1,27 +1,18 @@
-# VuosiLaskuri 
+# Keskiarvo
 
 ## JOHDANTO
-- Muista: Numeromuuttuja ei voi sisältää tekstiä, pelkästään numeroita.
-- Muista: Tekstimuuttujan täytyy aina olla hipsujen " " sisällä.
-- Alustettu muuttuja sisältää arvon luomisestaan alkaen.
-    -Alustettuja muuttujia voi luoda vain yhden kerrallaan
-    - esim: double luku1 = 10,5;
-- Alustamaton muuttuja ei sisällä arvoa luontihetkellä.
-    - Alustamattomia muuttujia voi luoda useita samaan aikaan
-    - esim: double summa, erotus;
+- Hyödynnä aina aiemmin oppimaasi.
+- Desimaalilukumuuttujia on useampaa eri tyyppiä; double, float.
+- Käy läpi muuttujien muunnoksiin liittyvä materiaali ensin.
 ## TEHTÄVÄNANTO
-- Tee konsolisovellus, jossa on yhteensä viisi numeromuuttujaa, yksi tekstimuuttuja ja yksi konsoliin tulostava "write line" -tyyppinen konsolitoiminto
-- Muuttujat: lukumuuttujat - ika, vuosi, syntymavuosi, tavoiteika, tavoitevuosi. Tekstimuuttuja - nimi. 
-- Syötä arvot vuosi, syntymavuosi ja tavoiteika muuttujille (tämä vuosi, sinun syntymävuotesi ja tavoiteika voi olla vaikka 20). Syötä arvo myös nimi muuttujalle (sinun nimesi).
-- Laita ohjelma laskemaan ikäsi (vuosi - syntymavuosi) sekä tavoitevuosi muuttujan arvon (syntymavuosi + tavoiteika)
-- Toiminto: tulostaa konsoliin WriteLine toiminnolla mallikuvan lauseen.
-- Huomioi pisteet ja huutomerkit yms. Asettele teksti WriteLinen sisällä "oikein", jotta tulosteesi on oikein. 
-- Esimerkkituloste:
-
+- Tee konsolisovellus, jossa on kolme int tyyppistä muuttujaa: luku1, luku2 ja luku3. Arvot ovat 5, 10 ja 19. Tee float tyyppinen muuttuja summa, sen arvo on luku1+luku2+luku3. Tee vielä float tyyppinen muuttuja keskiarvo jonka arvo on summa/3
+- Muista kommentoida mitä missäkin tapahtuu
+- Tulosta allaolevan mallin mukainen lause käyttäen lukujen sijaan vain muuttujia:
   
 ```
-Nimeni on Pekka. Ikäni on 25 ja syntymävuoteni on 1997 ja vuonna 2010 täytän 13 vuotta!
+Lukujen: 5 10 ja 19 summa on: 34 ja keskiarvo on: 11,333333333333334
 ```
+
 > [!IMPORTANT]
 > Koodin kirjoittamisen johdanto
 1. Kloonaa projekti omalle koneellesi.
