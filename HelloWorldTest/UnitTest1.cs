@@ -11,8 +11,8 @@ namespace HelloWorldTest
 
         //Harjoitus - PeruslaskutNumeromuuttujilla
         [Fact]
-        [Trait("TestGroup", "Keskiarvo ")]
-        public void Keskiarvo()
+        [Trait("TestGroup", "TekstistaLukuun")]
+        public void TekstistaLukuun()
         {
             // Arrange
             using var sw = new StringWriter();
@@ -40,7 +40,9 @@ namespace HelloWorldTest
                 // Define a regex pattern to match the structure, ignoring specific values
 
                 // Assert: Check if the result matches the expected structure
-                Assert.True(LineContainsIgnoreSpaces(resultLines[0], "Lukujen: 5 10 ja 19 summa on: 34 ja keskiarvo on: 11,333333333333334"), "Line does not contain expected text: " + resultLines[0]);
+                Assert.True(LineContainsIgnoreSpaces(resultLines[0], "11"), "Line does not contain expected text: " + resultLines[0] + ", expected text: " + "11");
+                Assert.True(LineContainsIgnoreSpaces(resultLines[1], "2"), "Line does not contain expected text: " + resultLines[1]);
+                Assert.True(LineContainsIgnoreSpaces(resultLines[2], "11"), "Line does not contain expected text: " + resultLines[2]);
             }
             catch (OperationCanceledException)
             {
@@ -88,3 +90,5 @@ namespace HelloWorldTest
 
     }
 }
+
+
